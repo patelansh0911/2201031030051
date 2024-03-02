@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbajaj {
+    height: 120px;
+    width: 600px;
+    background-position: center;
+    background-image: url(https://w7.pngwing.com/pngs/638/434/png-transparent-bajaj-auto-car-motorcycle-company-bajaj-pulsar-car-text-logo-transport-thumbnail.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p {
+    width: 80%;
+    font-family: Inter;
+    text-align: left;
+    font-size: 20px;
+}
+
+p>h2 {
+    text-align: center;
+}
+
+p>p {
+    width: 90%;
+}
+
+.bestSeller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bestSeller>p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Inter;
+
+}
+
+.bajaj-model {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#ar1 {
+    background-image: url(https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/bajaj-rs-200-bs-vi1676957928172.jpg?q=80);
+}
+
+#ar2 {
+    background-image: url(https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--ks-drum1702723605216.jpg?q=80);
+}
+
+
+.bajaj-model:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(202, 18, 18, 0.815));
+    cursor: crosshair;
+}

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brands-card {
+    margin-top: 130px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+a>.card {
+    height: 200px;
+    width: 350px;
+    margin-top: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#b1 {
+    transition: transform 0.5s;
+    background-image: url(https://1000logos.net/wp-content/uploads/2020/06/Hero-Logo1.jpg);
+}
+#b2 {
+    background-image: url(https://www.freepnglogos.com/uploads/honda-logo-png/honda-motorcycles-logo-wing-10.png);
+}
+
+#b3 {
+    background-size: contain;
+    background-image: url(https://w7.pngwing.com/pngs/66/903/png-transparent-yamaha-motor-company-motorcycle-newmarket-powersports-business-yamaha-mio-motorcycle-text-trademark-logo.png);
+}
+
+#b4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaOFeJ2qV8LFcFwrjYBfUkQQY7lqwptVZvA&usqp=CAU);
+}
+
+#b5 {
+    background-image: url(https://w7.pngwing.com/pngs/365/887/png-transparent-bmw-i3-car-bmw-i8-bmw-logo-emblem-trademark-logo-thumbnail.png);
+}
+
+#b6 {
+    background-image: url(https://w7.pngwing.com/pngs/638/434/png-transparent-bajaj-auto-car-motorcycle-company-bajaj-pulsar-car-text-logo-transport-thumbnail.png);
+}
+
+.card:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(255, 0, 0, 0.89));
+    cursor: pointer;
+}

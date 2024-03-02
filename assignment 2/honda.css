@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imghonda {
+    height: 120px;
+    width: 600px;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBcEKmSo9UqMxrQr8_xGCyPXCSQ2C10ENDqg&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    font-family: Inter;
+    text-align: left;
+    font-size: 20px;
+}
+
+p>h2 {
+    text-align: center;
+}
+
+ul,
+li {
+    text-align: left;
+}
+
+p>p {
+    width: 90%;
+}
+
+.bestSeller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.bestSeller>p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Inter;
+
+}
+
+.honda-model {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#n1 {
+    background-image: url(https://imgd.aeplcdn.com/227x128/n/cw/ec/43482/sp-125-right-front-three-quarter-2.jpeg?isig=0&q=80);
+}
+
+#n2 {
+    background-image: url(https://imgd.aeplcdn.com/227x128/n/cw/ec/44686/activa-6g-right-front-three-quarter.jpeg?q=80);
+}
+
+
+.honda-model:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(255, 0, 0, 0.808));
+    cursor: crosshair;
+}
